@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaRegComment, FaRetweet, FaRegHeart } from "react-icons/fa";
 import { FiShare } from "react-icons/fi";
-import Alert from '@mui/material/Alert';
+
 
 
 const Post = ({ name, content, image ,like, toggleLike ,likeCount, comments = [], addComment }) => {

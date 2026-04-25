@@ -29,7 +29,7 @@ const Login = ({ setCurrentUser }) => {
   return (
     <div className="min-h-screen w-full bg-white dark:bg-black text-black dark:text-white flex justify-center items-center p-4 transition-colors duration-200">
       <div className="w-full max-w-md p-8 border border-zinc-200 dark:border-zinc-800 rounded-2xl flex flex-col items-center">
-        <h1 className="text-4xl font-bold mb-8">WathIsThis</h1>
+        <h1 className="text-4xl font-bold mb-8">NoKill</h1>
         <h2 className="text-2xl font-bold mb-6 w-full text-left">Sign in to your account</h2>
         
         {error && <div className="w-full p-3 bg-red-500/10 border border-red-500 text-red-500 rounded-lg mb-4 text-sm">{error}</div>}
